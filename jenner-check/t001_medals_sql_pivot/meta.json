@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_medals_sql_pivot",
+  "source_file": "utl-pivoting-transposing-wide-using-sas-r-python-sql-macro-language.sas",
+  "source_blob_sha": "45b47b2ebabf92ba006c0af0f29c18c1d63e1f9a",
+  "source_commit": "1f6ef0cd40918d5a91f7d4380262ee05880124e1",
+  "notes": "Structure B 'easy case' pivot (repo lines 312-338): long medals table pivoted to one row per team with gold/silver/bronze columns via SUM(CASE WHEN medal=...) in PROC SQL. DATA step and query verbatim from the repo; added a PROC PRINT so the pivoted result shows in the listing. Output matches the result documented in the repo (SP 8/7/5, UK 9/7/., US 8/7/6)."
+}

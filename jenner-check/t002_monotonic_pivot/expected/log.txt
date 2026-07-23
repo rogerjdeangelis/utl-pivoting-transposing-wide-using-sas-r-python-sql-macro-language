@@ -1,0 +1,17 @@
+NOTE: Option OBS changed to 100.
+NOTE: DATA dups
+
+NOTE: Processing inline DATALINES (8 lines)
+
+NOTE: Read 8 rows from DATALINES.
+NOTE: Wrote dups (8 rows, 2 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Table want created.
+NOTE: PROC SQL statement used.
+NOTE: PROC PRINT data=want
+
+NOTE: PROC PRINT completed: 3 observations printed, 4 variables

@@ -1,0 +1,6 @@
+
+team  gold  silver  bronze
+----  ----  ------  ------
+SP       8       7       5
+UK       9       7       .
+US       8       7       6
