@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_monotonic_pivot",
+  "source_file": "utl-pivoting-transposing-wide-using-sas-r-python-sql-macro-language.sas",
+  "source_blob_sha": "45b47b2ebabf92ba006c0af0f29c18c1d63e1f9a",
+  "source_commit": "1f6ef0cd40918d5a91f7d4380262ee05880124e1",
+  "notes": "Structure A pivot via the PROC SQL MONOTONIC() function (repo lines 162-175): a no-primary-key table (duplicate g1) is given a running sequence with MONOTONIC(), then MOD(seq,3) buckets each group's values into val1/val2/val3. Query verbatim from the repo; the repo's sd1.dups libref is shipped inline as WORK.dups so the block runs standalone, and a PROC PRINT shows the result. Output matches the WANT documented in the repo (12/37/39, 48/53/., 19/19/27)."
+}
